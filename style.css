@@ -13,7 +13,11 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-.banner {
+p {
+    font-size: 15px;
+}
+
+.banner-heading {
     font-size: 90px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
@@ -23,18 +27,60 @@ body {
     position: relative;
 }
 
+.relative-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 0, 53, 0.5);
+    /* Change the color and opacity here */
+    z-index: 1;
+    /* Ensure the overlay is behind the text and image */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
 .absolute-element {
     position: absolute;
-    top: 70%; /* Adjust to position the text vertically centered */
-    left: 50%; /* Adjust to position the text horizontally centered */
+    top: 70%;
+    /* Adjust to position the text vertically centered */
+    left: 50%;
+    /* Adjust to position the text horizontally centered */
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     max-width: 700px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
     padding: 20px;
-    box-sizing: border-box; /* Include padding within width and height */
-  }
+    box-sizing: border-box;
+    /* Include padding within width and height */
+}
+
+/* faq */
+.faq-banner-text {
+    position: absolute;
+    top: 70%;
+    /* Adjust to position the text vertically centered */
+    left: 20%;
+    /* Adjust to position the text horizontally centered */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    padding: 20px;
+    z-index: 2;
+}
+
+
 
 .dropdown-item:hover {
     background-color: #2826c1;
@@ -50,7 +96,7 @@ body {
     .dropdown-item {
         color: white;
     }
-    
+
     .small-heading {
         font-size: 16px;
     }
@@ -88,5 +134,27 @@ img {
     width: 100%;
     height: auto;
     display: block;
-  }
+}
 
+.heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.question {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #2826c1;
+    padding: 15px;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
