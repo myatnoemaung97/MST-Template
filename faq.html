@@ -25,6 +25,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&display=swap"
         rel="stylesheet">
+
+
 </head>
 
 <body style="height: 3000px;">
@@ -119,81 +121,88 @@
         </div>
     </div>
     <main>
-        <section class="row " style="max-width: 1300px; margin: 50px auto;">
-            <section class="col-6" id="faq">
+        <section class="row" style="max-width: 1300px; margin: 50px auto;">
+            <section class="col-12 col-lg-6 pe-5" id="faq">
                 <h2 class="small-heading" style="color: #36348e;">FREQUENTLY ASKED QUESTIONS</h2>
                 <h2 class="heading">Popular Questions</h2>
                 <p class="para">Donec feugiat lectus mi, nec scelerisque massa viverraac. Vivam vestibulum ornare
                     imperdiet. Nam et sagittis diam. Maecenasma ximus fringilla viverra.</p>
-
-                <article>
-                    <a class="text-black no-underline" data-bs-toggle="collapse" href="#1" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        <div class="d-flex flex-row justify-content-start gap-3">
-                            <div class="text-primary">+</div>
-                            <p class="question">What are the admissins requirements?</p>
+                
+                <div class="d-flex flex-column gap-3">
+                    <article>
+                        <a onclick="clickQuestion(event)" class="text-black no-underline" data-bs-toggle="collapse"
+                            href="#1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="question d-flex align-items-center gap-4" style="background-color: #36348e;">
+                                <i class="fa-solid fa-xmark"></i>
+                                <p style="color: white;">What are the admissions requirements?</p>
+                            </div>
+                        </a>
+                        <div class="collapse show" id="1" data-bs-parent="#faq">
+                            <p class="px-5 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                ligula
+                                eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. </p>
                         </div>
-                    </a>
-                    <div class="collapse" id="1" data-bs-parent="#faq">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                            nascetur ridiculus mus. </p>
-                    </div>
-                </article>
-
-                <article>
-                    <a class="text-black no-underline" data-bs-toggle="collapse" href="#2" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        <div class="d-flex flex-row justify-content-start gap-3">
-                            <div class="text-primary">+</div>
-                            <p class="question">How is the transfer process to take the test?</p>
+                    </article>
+    
+                    <article>
+                        <a onclick="clickQuestion(event)" class="text-black no-underline" data-bs-toggle="collapse"
+                            href="#2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="question d-flex align-items-center gap-4">
+                                <i class="fa-solid fa-plus"></i>
+                                <p>How is the transfer process to take the test?</p>
+                            </div>
+                        </a>
+                        <div class="collapse" id="2" data-bs-parent="#faq">
+                            <p class="px-5 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                ligula
+                                eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. </p>
                         </div>
-                    </a>
-                    <div class="collapse" id="2" data-bs-parent="#faq">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                            nascetur ridiculus mus. </p>
-                    </div>
-                </article>
-
-                <article>
-                    <a class="text-black no-underline" data-bs-toggle="collapse" href="#3" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        <div class="d-flex flex-row justify-content-start gap-3">
-                            <div class="text-primary">+</div>
-                            <p class="question">How do I have to submit the required documents?</p>
+                    </article>
+    
+                    <article>
+                        <a onclick="clickQuestion(event)" class="text-black no-underline" data-bs-toggle="collapse"
+                            href="#3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="question d-flex align-items-center gap-4">
+                                <i class="fa-solid fa-plus"></i>
+                                <p>How do I submit the required documents?</p>
+                            </div>
+                        </a>
+                        <div class="collapse" id="3" data-bs-parent="#faq">
+                            <p class="px-5 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                ligula
+                                eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. </p>
                         </div>
-                    </a>
-                    <div class="collapse" id="3" data-bs-parent="#faq">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                            nascetur ridiculus mus. </p>
-                    </div>
-                </article>
-
-                <article>
-                    <a class="text-black no-underline" data-bs-toggle="collapse" href="#4" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        <div class="d-flex flex-row justify-content-start gap-3">
-                            <div class="text-primary">+</div>
-                            <p class="question">How much is the admission fee to enter the university?</p>
+                    </article>
+    
+                    <article>
+                        <a onclick="clickQuestion(event)" class="text-black no-underline" data-bs-toggle="collapse"
+                            href="#4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="question d-flex align-items-center gap-4">
+                                <i class="fa-solid fa-plus"></i>
+                                <p>How much is the admission fee to the university?</p>
+                            </div>
+                        </a>
+                        <div class="collapse" id="4" data-bs-parent="#faq">
+                            <p class="px-5 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                ligula
+                                eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. </p>
                         </div>
-                    </a>
-                    <div class="collapse" id="4" data-bs-parent="#faq">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                            nascetur ridiculus mus. </p>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </section>
-            <section class="col-6">
+            <section class="col-12 col-lg-6 ps-5">
                 <section class="pb-3">
                     <h2 class="heading" style="font-size: 26px;">Extended Licenses questions</h2>
-                    <p class="mb-2">Donec feugiat lectus mi, nec scelerisque massa viverraac. Vivam vestibulum ornare imperdiet. Nam
+                    <p class="mb-2">Donec feugiat lectus mi, nec scelerisque massa viverraac. Vivam vestibulum ornare
+                        imperdiet. Nam
                         et
                         sagittis diam. Maecenasma ximus fringilla viverra. Quisque malesuada enim sed aliquam feugiat.
                     </p>
-                    <ul>
+                    <ul style="padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa-solid fa-check me-2" style="color: #36348e;"></i>
                             Do you have lockers to secure my belongings ?
@@ -227,7 +236,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-start gap-3">
-                            <i class="fa-regular fa-envelope pt-1" style="color: #36348e;"></i>
+                            <i class="fa-regular fa-envelope fa-xl pt-3" style="color: #36348e;"></i>
                             <div>
                                 <p style="color: #36348e;">Email</p>
                                 <p>arizon@domain.com</p>
@@ -239,7 +248,7 @@
         </section>
     </main>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>

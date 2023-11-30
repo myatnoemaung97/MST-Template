@@ -147,12 +147,16 @@ img {
 }
 
 .question {
+    border: 1px solid #2826c1;
+    padding: 10px;
+    width: 100%;
+}
+
+.question p {
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 20px;
-    border: 1px solid #2826c1;
-    padding: 15px;
-    width: 100%;
+    margin-bottom: 0;
 }
 
 li {
