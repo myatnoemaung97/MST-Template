@@ -40,13 +40,13 @@ p {
     /* Ensure the overlay is behind the text and image */
 }
 
-header {
+/* header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-}
+} */
 
 .absolute-element {
     position: absolute;
@@ -79,8 +79,6 @@ header {
     padding: 20px;
     z-index: 2;
 }
-
-
 
 .dropdown-item:hover {
     background-color: #2826c1;
@@ -161,4 +159,18 @@ img {
 
 li {
     list-style-type: none;
+}
+
+.cormorant {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.send-message-btn {
+    background-color: #36348e;
+    color: white;
+    transition: background-color 0.5s ease;
+} 
+
+.send-message-btn:hover {
+    background-color: rgb(255, 197, 58);
 }
