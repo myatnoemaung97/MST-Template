@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/807f2d6ec6.js" crossorigin="anonymous"></script>
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div id="address-bar" class="d-none d-md-flex justify-content-between align-items-center text-white px-4 py-3"
+            style="background-color: rgba(0, 0, 0, 0.5);">
+            <div class="contact-bar d-none d-md-flex justify-content-between gap-5" style="font-size: 14px;">
+                <p>Phone : +(62) 800-567-8990</p>
+                <p>Email : arizon@domain.com</p>
+                <p>Work Hours : Mon - Fri : 09:00 - 18:00</p>
+            </div>
+            <div class="d-none d-lg-flex justify-content-between gap-3">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <nav id="nav-bar" class="navbar navbar-expand-lg text-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://templatekit.jegtheme.com/arizon/wp-content/uploads/sites/71/2021/04/logo-arizon-2.png"
+                        alt="uni logo" style="max-width: 150px; max-height: 130px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel" style="background-color: #010035;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="https://templatekit.jegtheme.com/arizon/wp-content/uploads/sites/71/2021/04/logo-arizon-2.png"
+                                alt="uni logo" style="max-width: 150px; max-height: 130px;">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Academics
+                                </a>
+                                <ul class="dropdown-menu p-2">
+                                    <li><a class="dropdown-item" href="#">Academics</a></li>
+                                    <li><a class="dropdown-item" href="#">Academic Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Faculty
+                                </a>
+                                <ul class="dropdown-menu p-2">
+                                    <li><a class="dropdown-item" href="#">Faculty</a></li>
+                                    <li><a class="dropdown-item" href="#">Faculty Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu p-2">
+                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                    <li><a class="dropdown-item" href="#">Event</a></li>
+                                    <li><a class="dropdown-item" href="#">Staff & Lecturer</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="relative-container">
+        <img class="" src="./images/academics-banner.jpeg" alt="academics-banner">
+        <div class="banner-text text-white container-fluid">
+            <h2 class="small-heading">MORE THAN 35 ACADEMICS</h2>
+            <h2 class="banner-heading">ACADEMICS</h2>
+        </div>
+    </div>
+    <!-- academic items -->
+    <div>
+        <h2 class="small-heading text-center mt-5" style="color: #36348E;">OUR ACADEMICS</h2>
+        <h2 class="heading text-center">Kind of M.S.T Academics</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex justify-content-end">
+                    <div class="border shadow p-5 academic-items">
+                        <h4 class="academic-icon text-center"><i class="fa-solid fa-code"></i></h4>
+                        <h2 class="academic-header text-center mt-3">Computer Science</h2>
+                        <p class="text-center mt-3 academic-description">Lorem ipsum dolor sit amet consec tetur <br> adipiscing elit pretium sollicitudin. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="border shadow p-5 academic-items">
+                        <h4 class="academic-icon text-center"><i class="fa-solid fa-paintbrush"></i></h4>
+                        <h2 class="academic-header text-center mt-3">Art & Design</h2>
+                        <p class="text-center mt-3 academic-description">Lorem ipsum dolor sit amet consec tetur <br> adipiscing elit pretium sollicitudin. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex justify-content-start">
+                    <div class="border shadow p-5 academic-items">
+                        <h4 class="academic-icon text-center"><i class="fa-solid fa-flask"></i></i></h4>
+                        <h2 class="academic-header text-center mt-3">Sciences</h2>
+                        <p class="text-center mt-3 academic-description">Lorem ipsum dolor sit amet consec tetur <br> adipiscing elit pretium sollicitudin. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex justify-content-end">
+                    <div class="border shadow p-5 academic-items">
+                        <h4 class="academic-icon text-center"><i class="fa-solid fa-network-wired"></i></h4>
+                        <h2 class="academic-header text-center mt-3">Networking</h2>
+                        <p class="text-center mt-3 academic-description">Lorem ipsum dolor sit amet consec tetur <br> adipiscing elit pretium sollicitudin. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="border shadow p-5 academic-items">
+                        <h4 class="academic-icon text-center"><i class="fa-solid fa-shield-halved"></i></h4>
+                        <h2 class="academic-header text-center mt-3">Cyber Security</h2>
+                        <p class="text-center mt-3 academic-description">Lorem ipsum dolor sit amet consec tetur <br> adipiscing elit pretium sollicitudin. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex justify-content-start">
+                    <div class="border shadow p-5 academic-items">
+                        <h4 class="academic-icon text-center"><i class="fa-solid fa-briefcase"></i></h4>
+                        <h2 class="academic-header text-center mt-3">Business Management</h2>
+                        <p class="text-center mt-3 academic-description">Lorem ipsum dolor sit amet consec tetur <br> adipiscing elit pretium sollicitudin. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image mt-5">
+        <div class="counter">
+            <div class="row">
+                <div class="border p-4 d-flex bg-white">
+                    <div class="counter-item me-5 ms-5">
+                        <h1 class="d-flex">50 <i class="fa fa-plus counter-icon"></i></h1>
+                        <p>Courses</p>
+                    </div>
+                    <div class="counter-item me-5 ms-5">
+                        <h1>120</h1>
+                        <p>Classes</p>
+                    </div>
+                    <div class="counter-item me-5 ms-5">
+                        <h1 class="d-flex">800 <i class="fa fa-plus counter-icon"></i></h1>
+                        <p>Students</p>
+                    </div>
+                    <div class="counter-item me-5 ms-5">
+                        <h1 class="d-flex">200 <i class="fa fa-plus counter-icon"></i></h1>
+                        <p>Diploma</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5">
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <h2 class="small-heading" style="color: #36348E;">LETS JOIN AND PROVE IT</h2>
+                        <h2 class="heading">Awards We Obtained</h2>
+                        <p>Travisa caonsectetur adipiscing elit. Donec a feugiat purus. Duis turpis nunc, <br> aliquam id nunc ac, convallis dictum nisi. Curabitur vehicula tincidunt sapien, <br> vel fringilla neque iaculis. aliquam id nunc ac, convallis dictum nisi.</p>
+                        <div class="row mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <i class="fa-solid fa-trophy me-3"></i> PKM awards
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <i class="fa-solid fa-trophy me-3"></i> PKM awards
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <i class="fa-solid fa-trophy me-3"></i> PKM awards
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <i class="fa-solid fa-trophy me-3"></i> PKM awards
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <i class="fa-solid fa-trophy me-3"></i> PKM awards
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <i class="fa-solid fa-trophy me-3"></i> PKM awards
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                
+                    <div class="image-container">
+                        <div class="d-flex justify-content-end">
+                            <img class="uni-image" src="./images/university1.jpg" style="width: 500px;" alt="Image 1">
+                            <img class="stu-image" src="./images/students.jpg" style="width: 450px;" alt="Image 2">
+                        </div>
+                        
+                    </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5" style="background-color: #36348E; margin-top: auto;">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="d-flex justify-content-center">
+                    <div class="footer-content">
+                        <img src="./images/mst-logo.png" class="pt-3 footer-logo" alt="">
+                        <p class="text-white ms-3 mt-2">Hotline 1280-0821</p>
+                        <p class="text-white ms-3">1810 Campus Way NE Arizon</p>
+                        <p class="text-white ms-3">+(62) 800-567-8990 </p>
+                        <p class="text-white ms-3 pb-2">arizon@domain.com</p>
+                    </div>
+
+                </div>
+               
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <p class="text-white mt-4 ms-4" style="font-size: 25px; font-family: 'Cormorant Garamond', serif; font-weight: 900;">Useful Links</p>
+                        <ul style="list-style-type: none;" class="link-list">
+                            <li class="text-white mb-4"> > <a href="">Home</a> </li>
+                            <li class="text-white mb-4"> > <a href="">Academics</a></li>
+                            <li class="text-white mb-4"> > <a href="">Lecturers</a></li>
+                            <li class="text-white mb-4"> > <a href="">FAQ</a></li>
+                            <li class="text-white mb-4"> > <a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <p class="text-white text-center pb-3 m-0">Copyright &copy; 2023 by BigTech International. All rights reserved!</p>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>

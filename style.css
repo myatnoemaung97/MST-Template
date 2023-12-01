@@ -11,6 +11,7 @@ body {
 .small-heading {
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
+    letter-spacing: 3px;
 }
 
 p {
@@ -27,6 +28,8 @@ p {
     position: relative;
 }
 
+
+/* mnm */
 .relative-container::before {
     content: '';
     position: absolute;
@@ -39,14 +42,6 @@ p {
     z-index: 1;
     /* Ensure the overlay is behind the text and image */
 }
-
-/* header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-} */
 
 .absolute-element {
     position: absolute;
@@ -66,6 +61,7 @@ p {
 }
 
 /* faq */
+/* mnm */
 .faq-banner-text {
     position: absolute;
     top: 70%;
@@ -169,8 +165,132 @@ li {
     background-color: #36348e;
     color: white;
     transition: background-color 0.5s ease;
-} 
+}
 
 .send-message-btn:hover {
     background-color: rgb(255, 197, 58);
 }
+
+/* hhn */
+.banner-text {
+    position: absolute;
+    top: 70%;
+    /* Adjust to position the text vertically centered */
+    left: 30%;
+    /* Adjust to position the text horizontally centered */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Include padding within width and height */
+    z-index: 1000;
+}
+
+/* hhn */
+
+/* hhn */
+
+.academic-items {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.academic-items:hover {
+    background-color: #36348E;
+    transform: scale(1.05);
+}
+
+.academic-items:hover .academic-icon {
+    color: #f9f9f9;
+}
+
+.academic-items:hover .academic-header {
+    color: rgb(255, 197, 58);
+}
+
+.academic-items:hover .academic-description {
+    color: #f9f9f9;
+}
+
+.academic-icon {
+    font-size: 35px;
+    color: #36348E;
+}
+
+.academic-header {
+    font-size: 24px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.image {
+    background-image: url('./images/academic-background.jpg'), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+}
+
+
+.counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.counter-icon {
+    font-size: 20px;
+    color: #36348E;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    /* Adjust the width as needed */
+    max-width: 600px;
+    /* Set a maximum width if necessary */
+    margin: auto;
+    /* Center the container */
+}
+
+.uni-image,
+.stu-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Remove any default inline styles */
+}
+
+.stu-image {
+    position: absolute;
+    top: 25%;
+    right: 50%;
+}
+
+.footer-logo {
+    width: 300px;
+}
+
+.link-list li a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.progress-bar {
+    background-color: #36348E;
+}
+
+.lect-name {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.lect-role {
+    font-size: 15px;
+    color: #36348E;
+}
+
+/* hhn */
