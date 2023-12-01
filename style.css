@@ -286,3 +286,12 @@ li {
 }
 
 /* hhn */
+
+.fa-brands {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fa-brands:hover {
+    color: #36348E;
+}
