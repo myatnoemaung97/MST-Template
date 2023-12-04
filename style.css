@@ -26,8 +26,31 @@ p {
 
 .relative-container {
     position: relative;
+    height: 550px;
 }
 
+.contact-banner {
+    background-image: url('images/call-center-full.jpg');
+    background-size: cover;
+}
+
+.faq-banner {
+    background-image: url('images/senior-lecturer-writing-something-on-blackboard-and-showing-one-finger-up-e1617782850105.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.academic-banner {
+    background-image: url('images/interior-of-busy-university-campus-building-with-students-e1617782600579.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.lecturer-banner {
+    background-image: url('images/report-of-business-coach-e1617782957703.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 /* mnm */
 .relative-container::before {
@@ -113,6 +136,11 @@ p {
 
     .banner-heading {
         font-size: 45px;
+    }
+
+    .relative-container {
+        height: 300px;
+        background-position: center;
     }
 }  
 
