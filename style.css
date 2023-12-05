@@ -52,6 +52,12 @@ p {
     background-position: center;
 }
 
+.index-banner {
+    background-image: url('images/university-at-night.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 /* mnm */
 .relative-container::before {
     content: '';
@@ -322,4 +328,242 @@ li {
 
 .fa-brands:hover {
     color: #36348E;
+}
+
+.relative-container .col{
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+/* visionmission */
+
+.vision-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+/* about-us */
+
+.about-us{
+    position: relative;
+}
+
+.about-us .image1{
+    position: relative;
+    overflow: hidden;
+    margin-top: 150px;
+    width: 300px;
+    /* height: 1000px; */
+}
+
+.about-us .image1 img{
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.about-us .image2 img{
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.about-us .image2{
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    width: 360px;
+    /* height: 1200px; */
+}
+
+.about-us .image1:hover img{
+    transform: scale(0.9);
+    filter: brightness(70%);
+}
+
+.about-us .image2:hover img{
+    transform: scale(0.9);
+    filter: brightness(70%);
+}
+
+.aboutus{
+    margin-top: 100px;
+    padding-left: 0;
+}
+
+.aboutuslist{
+    margin-top: 40px;
+}
+
+.aboutusicon{
+    font-size: 15px;
+    padding-right: 8px;
+    color: #2826c1;
+}
+
+.aboutusplus{
+    font-size: 25px;
+    padding-left: 8px;
+    color: #2826c1;
+}
+
+.aboutuslist h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+/* knowledge and experience */
+
+.knowledge{
+    margin-top: 100px;
+}
+
+.knowledge-heading{
+    font-size: 26px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+}
+
+.knowledge-list{
+    margin-top: 25px;
+}
+
+.knowledge-icon .uni{
+    font-size: 25px;
+    padding: 20px;
+    background-color: #36348e;
+    border-radius: 50%;
+    color: #ffffff;
+    background-size: 20px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.knowledge-icon .online{
+    font-size: 25px;
+    padding: 20px;
+    background-color: #ffc53a;
+    border-radius: 50%;
+    color: #292928;
+    background-size: 20px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.knowledge-icon .campus{
+    font-size: 25px;
+    padding: 20px;
+    background-color: #2B7258;
+    border-radius: 50%;
+    color: #ffffff;
+    background-size: 20px;
+    transition: background-color 0.4s ease-in-out;
+
+}
+
+.knowledge-list:hover .knowledge-icon .uni {
+    background-color: #ffc53a;
+    color: #292928;
+}
+
+.knowledge-list:hover .knowledge-icon .online {
+    background-color: #36348e;
+    color: #ffffff;
+}
+
+.knowledge-list:hover .knowledge-icon .campus {
+    background-color: #ffc53a;
+    color: #292928;
+}
+
+.applyconnect{
+    margin-top: 80px;
+    column-gap: 0;
+}
+
+.knowledge-letter-apply{
+    background-color: #36348e;
+    color: #ffffff;
+    width: 318px;
+    height: 230px;
+}
+
+.knowledge-letter-connect{
+    background-color: #ffc53a;
+    color: #292928;
+}
+
+.knowledge-letter-apply h2{
+    margin-top: 50px;
+}
+
+.knowledge-letter-apply p{
+    padding: 10px;
+}
+
+.knowledge-letter-connect h2{
+    margin-top: 50px;
+}
+
+.knowledge-letter-connect p{
+    padding: 10px;
+}
+
+/* largest-Univeristy progress bar  */
+
+.largest-paragraph{
+    height: 650px;
+    padding: 120px;
+    background-color: #2B7258;
+    color: #ffffff;
+
+}
+
+.largest-heading{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+}
+
+/* join us  */
+
+.joinus-container {
+    position: relative;
+    height: 600px; /* Set the desired height */
+    overflow: hidden;
+}
+
+.background-image {
+    background-image: url('images/joinus2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-attachment: fixed; /* Add this line */
+}
+
+.background-color-overlay {
+    background-color: #010035;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.absolute-element-largest {
+    position: absolute;
+    width: 800px;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Add more styling for your absolute element */
+}
+
+.absolute-element-largest a{
+    background-color: #ffc53a;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
 }
