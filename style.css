@@ -2,6 +2,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .contact-bar p {
@@ -94,6 +95,12 @@ p {
     color: white;
 }
 
+.heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 992px) {
     .dropdown-menu {
         background-color: #010035;
@@ -111,6 +118,9 @@ p {
     .banner {
         font-size: 80px;
     }
+    .heading {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -124,6 +134,9 @@ p {
 
     .banner-heading {
         font-size: 65px;
+    }
+    .heading {
+        font-size: 30px;
     }
 }
 
@@ -148,6 +161,9 @@ p {
         height: 300px;
         background-position: center;
     }
+    .heading {
+        font-size: 30px;
+    }
 }  
 
 img {
@@ -156,11 +172,7 @@ img {
     display: block;
 }
 
-.heading {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 55px;
-    font-weight: bold;
-}
+
 
 .no-underline {
     text-decoration: none;
@@ -293,7 +305,7 @@ li {
 .stu-image {
     position: absolute;
     top: 25%;
-    right: 50%;
+    right: 30%;
 }
 
 .footer-logo {
@@ -339,7 +351,8 @@ li {
 
 .vision-heading{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 900;
 }
 
 /* about-us */
@@ -352,7 +365,7 @@ li {
     position: relative;
     overflow: hidden;
     margin-top: 150px;
-    width: 300px;
+    width: 40%;
     /* height: 1000px; */
 }
 
@@ -368,7 +381,7 @@ li {
     position: relative;
     overflow: hidden;
     margin-top: 100px;
-    width: 360px;
+    width: 55%;
     /* height: 1200px; */
 }
 
@@ -478,8 +491,6 @@ li {
 .knowledge-letter-apply{
     background-color: #36348e;
     color: #ffffff;
-    width: 318px;
-    height: 230px;
 }
 
 .knowledge-letter-connect{
@@ -488,7 +499,7 @@ li {
 }
 
 .knowledge-letter-apply h2{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .knowledge-letter-apply p{
@@ -496,7 +507,7 @@ li {
 }
 
 .knowledge-letter-connect h2{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .knowledge-letter-connect p{
@@ -506,8 +517,9 @@ li {
 /* largest-Univeristy progress bar  */
 
 .largest-paragraph{
-    height: 650px;
-    padding: 120px;
+    height: 100%;
+    width: 100%;
+    /* padding: 120px; */
     background-color: #2B7258;
     color: #ffffff;
 
@@ -523,21 +535,17 @@ li {
 
 .joinus-container {
     position: relative;
-    height: 600px; /* Set the desired height */
+    height: 100%; /* Set the desired height */
     overflow: hidden;
 }
 
 .background-image {
-    background-image: url('images/joinus2.jpg');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-attachment: fixed; /* Add this line */
 }
 
 .background-color-overlay {
@@ -552,9 +560,9 @@ li {
 
 .absolute-element-largest {
     position: absolute;
-    width: 800px;
+    /* width: 800px; */
     top: 40%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     /* Add more styling for your absolute element */
@@ -593,10 +601,13 @@ li {
 }
 
 .quote-text {
-    font-size: 33px;
     font-style: italic;
     font-family: 'Cormorant Garamond', serif;
-    line-height: 50px;
     color: #010035;
-    margin-bottom: 15px;
+}
+
+.vision-text, 
+.mission-text {
+    line-height: 30px;
+    letter-spacing: 1.2px;
 }
