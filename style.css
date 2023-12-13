@@ -31,36 +31,36 @@ p {
 }
 
 .contact-banner {
-    background-image: url('images/call-center-full.jpg');
+    background-image: url('images/contact-banner.jpg');
     background-size: cover;
 }
 
 .faq-banner {
-    background-image: url('images/senior-lecturer-writing-something-on-blackboard-and-showing-one-finger-up-e1617782850105.jpg');
+    background-image: url('images/faq-banner.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .academic-banner {
-    background-image: url('images/interior-of-busy-university-campus-building-with-students-e1617782600579.jpg');
+    background-image: url('images/academic-banner.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .lecturer-banner {
-    background-image: url('images/report-of-business-coach-e1617782957703.jpg');
+    background-image: url('images/website\ banner\ copy.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .index-banner {
-    background-image: url('images/university-at-night.jpg');
+    background-image: url('images/home-banner.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 /* mnm */
-.relative-container::before {
+.relative-container:not(.lecturer-banner)::before {
     content: '';
     position: absolute;
     top: 0;
@@ -262,7 +262,7 @@ li {
 }
 
 .image {
-    background-image: url('./images/academic-background.jpg'), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-image: url('./images/academic-banner-2.jpg'), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -484,7 +484,7 @@ li {
 }
 
 .applyconnect{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     column-gap: 0;
 }
 
@@ -514,13 +514,26 @@ li {
     padding: 10px;
 }
 
+@media screen and (min-width: 992px) {
+    .valuable-img{
+        max-height: 280px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .valuable-img{
+        height: 300px;
+    }
+}  
+
 /* largest-Univeristy progress bar  */
 
 .largest-paragraph{
     height: 100%;
     width: 100%;
     /* padding: 120px; */
-    background-color: #2B7258;
+    background-color: #36348e;
     color: #ffffff;
 
 }
@@ -610,4 +623,56 @@ li {
 .mission-text {
     line-height: 30px;
     letter-spacing: 1.2px;
+}
+
+.award-img .image1 img{
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.award-img .image2 img{
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+
+.award-img .image1:hover img{
+    transform: scale(0.9);
+    filter: brightness(70%);
+}
+
+.award-img .image2:hover img{
+    transform: scale(0.9);
+    filter: brightness(70%);
+}
+
+.partner-view-title{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    font-size: 29px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+.card img {
+max-width: 100%;
+max-height: 100%;
+}
+.card {
+margin: 0 0.5em;
+box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+border: none;
+border-radius: 0;
+}
+.carousel-inner {
+padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
