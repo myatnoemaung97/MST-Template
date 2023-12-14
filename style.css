@@ -33,6 +33,7 @@ p {
 .contact-banner {
     background-image: url('images/contact-banner.jpg');
     background-size: cover;
+    background-position: bottom;
 }
 
 .faq-banner {
@@ -676,3 +677,9 @@ padding: 1em;
   top: 50%;
   transform: translateY(-50%);
 }
+
+.owl-carousel .owl-nav button {
+    font-size: 24px; /* Adjust the font size as needed */
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+  }
