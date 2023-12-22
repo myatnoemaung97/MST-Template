@@ -54,9 +54,9 @@ p {
 }
 
 .lecturer-banner {
-    background-image: url('images/website\ banner\ copy.jpg');
+    background-image: url('images/MST\ Banner\ for\ Lecturers\ page.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .index-banner {
