@@ -108,6 +108,23 @@ p {
     font-weight: bold;
 }
 
+.programme-container{
+    width: 80%;
+    max-width: 1300px;
+
+}
+
+.programme-header{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+    color: #2826c1;
+}
+
+.programme-name{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
 @media screen and (max-width: 992px) {
     .dropdown-menu {
         background-color: #010035;
@@ -128,6 +145,10 @@ p {
     }
     .heading {
         font-size: 40px;
+    }
+
+    .programme-header{
+        font-size: 35px;
     }
 }
 
@@ -151,6 +172,10 @@ p {
     }
     .heading {
         font-size: 30px;
+    }
+
+    .programme-header{
+        font-size: 25px;
     }
 }
 
@@ -183,6 +208,10 @@ p {
     }
     .heading {
         font-size: 30px;
+    }
+
+    .programme-header{
+        font-size: 25px;
     }
 }  
 
@@ -710,3 +739,5 @@ padding: 1em;
     padding-left: 35px;
     padding-right: 35px;
 }
+
+
