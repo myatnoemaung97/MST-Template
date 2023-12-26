@@ -58,3 +58,8 @@ window.addEventListener('scroll', function() {
     navBar.style.backgroundColor = '';
   }
 });
+
+function navigateToPage(url) {
+    window.location.href = url;
+}
+

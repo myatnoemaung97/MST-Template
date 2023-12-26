@@ -32,7 +32,7 @@ p {
 
 .relative-container {
     position: relative;
-    height: 550px;
+    height: 670px;
 }
 
 .contact-banner {
@@ -54,13 +54,13 @@ p {
 }
 
 .lecturer-banner {
-    background-image: url('images/MST\ Banner\ for\ Lecturers\ page.jpg');
+    background-image: url('images/Lecturers.png');
     background-size: cover;
     background-position: top;
 }
 
 .index-banner {
-    background-image: url('images/home-banner.jpg');
+    background-image: url('images/home.png');
     background-size: cover;
     background-position: top;
 }
@@ -98,8 +98,9 @@ p {
 
 .dropdown-item:hover {
     background-color: #2826c1;
-    color: white;
+    color: white !important;
 }
+
 
 .heading {
     font-family: 'Cormorant Garamond', serif;
@@ -113,8 +114,9 @@ p {
         border: none;
     }
 
-    .dropdown-item {
-        color: white;
+    .dropdown-item:hover {
+        background-color: #2826c1;
+        color: white !important;
     }
 
     .small-heading {
@@ -134,6 +136,12 @@ p {
         font-size: 14px;
     }
 
+    
+    .dropdown-item:hover {
+        background-color: #2826c1;
+        color: white !important;
+    }
+
     .banner {
         font-size: 50px;
     }
@@ -149,6 +157,12 @@ p {
 @media screen and (max-width: 576px) {
     .small-heading {
         font-size: 10px;
+    }
+
+    
+    .dropdown-item:hover {
+        background-color: #2826c1;
+        color: white !important;
     }
 
     .banner {
@@ -431,8 +445,8 @@ li {
 }
 
 .knowledge-heading{
-    font-size: 26px;
-    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 900;
 }
 

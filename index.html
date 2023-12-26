@@ -72,11 +72,19 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="academics.html">Academics</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Programmes
+                                </a>
+                                <ul class="dropdown-menu bg-white">
+                                    <li><a class="dropdown-item dropdowns text-dark" onclick="navigateToPage('academics.html#pg')" href="#">Post-Graduates</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" onclick="navigateToPage('academics.html#ug')" href="#">Under-Graduates</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" onclick="navigateToPage('academics.html#dp')" href="#">Diplomas</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" onclick="navigateToPage('academics.html#cf')" href="#">Certifications</a></li>
+                                  </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="lecturer.html">Lecturers</a>
+                                <a class="nav-link text-white" aria-current="page" href="lecturer.html">Faculty</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" aria-current="page" href="events.html">Events</a>
@@ -96,7 +104,6 @@
 
     <div class="relative-container index-banner">
         <div class="banner-text text-white container-fluid text-start">
-            <h2 class="small-heading">BEST UNIVERSITY IN TOWN</h2>
             <h2 class="banner-heading">MST UNIVERSITY</h2>
         </div>
     </div>
@@ -145,7 +152,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <h2 class="small-heading  aboutus" style="color: #010035;">ABOUT M.S.T UNIVERSITY</h2>
+                <h2 class="small-heading  aboutus" style="color: #36348E;">ABOUT M.S.T UNIVERSITY</h2>
                 <h2 class="heading">Executive Summary of M.S.T</h2>
                 <p style="line-height: 29px; font-size: 17px;text-align: justify;">Established in 2005 by the visionary Principal U Aung Zaw Myint, M.S.T University stands as a beacon of excellence in IT education and skill certification in Myanmar. The exceptional academic achievements of our Principal, who was recognized as the top-ranked student among 40 countries worldwide with a degree in Telecommunications and IT Technology from India, laid the foundation for M.S.T's commitment to nurturing outstanding IT professionals. Over the years, M.S.T University has not only provided cutting-edge education but has also actively contributed to the growth and development of the IT industry in Myanmar
                 </p>
@@ -178,8 +185,8 @@
 
     <div class="knowledge container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <h2 class="small-heading">TO THE JOURNEY AHEAD</h2>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-first order-md-last order-sm-last order-last">
+                <h2 class="small-heading mt-lg-0 mt-md-5 mt-sm-5 mt-5" style="color: #36348E;">TO THE JOURNEY AHEAD</h2>
                 <h2 class="heading">Global Collaborations</h2>
                 <div style="line-height: 29px; text-align: justify;">
 
@@ -227,31 +234,27 @@
                     </div>
                 </div> -->
             </div>
-            <div class="applyconnect col-lg-6 col-md-12 col-sm-12 col-12 mt-lg-0 mt-sm-4 mt-4">
+            <div class="applyconnect col-lg-6 col-md-12 col-sm-12 col-12 mt-lg-0 mt-sm-4 mt-4 order-lg-last order-md-first order-sm-first order-first">
                 <div class="row g-0 text-center">
                     <div
-                        class="col-lg-6 col-md-6 knowledge-letter-apply order-lg-first order-md-first order-first d-flex align-items-center">
+                        class="col-lg-6 col-md-6 knowledge-letter-apply order-lg-first order-md-first order-first d-flex align-items-center justify-content-center">
                         <div>
-                            <h2 class="knowledge-heading">You Apply</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Ut elit tellus, luctus necullam corper mattis pulvinar.</p>
+                            <h2 class="knowledge-heading">YOUR <br> SUCCESS</h2>
                         </div>
 
                     </div>
                     <div class="col-lg-6 col-md-6 order-lg-1 order-md-1 order-sm-1">
-                        <img class="valuable-img" src="images/valuable-1.jpg" style="width: 100%;" alt="uni image">
+                        <img class="valuable-img" src="images/valuable-1.jpg" style="width: 100%; object-fit:cover;" alt="uni image">
                     </div>
                 </div>
                 <div class="row g-0 text-center">
                     <div class="col-lg-6 col-md-6 order-lg-2 order-md-2 order-sm-last order-last">
-                        <img class="valuable-img" src="images/valuable-2.jpg" style="width: 100%;" alt="uni image">
+                        <img class="valuable-img" src="images/valuable-2.jpg" style="width: 100%; object-fit:cover;" alt="uni image">
                     </div>
                     <div
-                        class="col-lg-6 col-md-6 order-lg-3 order-md-3 order-sm-2 order-2 knowledge-letter-connect d-flex align-items-center">
+                        class="col-lg-6 col-md-6 order-lg-3 order-md-3 order-sm-2 order-2 knowledge-letter-connect d-flex align-items-center justify-content-center">
                         <div>
-                            <h2 class="knowledge-heading">We Connect</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Ut elit tellus, luctus necullam corper mattis pulvinar.</p>
+                            <h2 class="knowledge-heading">OUR <br> DESTINATION</h2>
                         </div>
 
 
@@ -437,50 +440,50 @@
         <h2 class="heading text-center">Our Partners</h2>
 
         <div class="row p-5 d-flex align-items-center">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
                     <img src="./images/ec council.jpg" class="img-fluid" style="max-width: 220px;" alt="">
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
 
                 <div class="d-flex justify-content-center">
                     <img src="./images/itpec logo-02 small size.png" class="img-fluid" style="max-width: 220px;" alt="">
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
                     <img src="./images/Lincoln University College.png" class="img-fluid" style="max-width: 220px;"
                         alt="">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
                     <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01.png" class="img-fluid"
                         style="max-width: 220px;" alt="">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
                     <img src="./images/SQA-International (1).png " class="img-fluid" style="max-width: 220px;" alt="">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
                     <img src="./images/UCLan-University-of-Central-Lancashire update.png" class="img-fluid"
                         style="max-width: 220px;" alt="">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
                     <img src="./images/Logo.png" class="img-fluid" style="max-width: 220px;" alt="">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="d-flex justify-content-center">
-                    <img src="./images/cass.png" class="img-fluid" style="max-width: 220px;" alt="">
+                    <img src="./images/cass-2.png" class="img-fluid" style="max-width: 150px;" alt="">
                 </div>
             </div>
         </div>
