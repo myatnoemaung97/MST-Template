@@ -411,7 +411,7 @@ li {
     position: relative;
     overflow: hidden;
     margin-top: 150px;
-    width: 40%;
+    width: 35%;
     /* height: 1000px; */
 }
 
@@ -423,14 +423,11 @@ li {
 .about-us .image2 img{
     transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.about-us .image3 img{
-    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
-}
 .about-us .image2{
     position: relative;
     overflow: hidden;
     margin-top: 100px;
-    width: 55%;
+    width: 45%;
     /* height: 1200px; */
 }
 
@@ -440,11 +437,6 @@ li {
 }
 
 .about-us .image2:hover img{
-    transform: scale(0.9);
-    filter: brightness(70%);
-}
-
-.about-us .image3:hover img{
     transform: scale(0.9);
     filter: brightness(70%);
 }
@@ -749,14 +741,13 @@ padding: 1em;
 }
 
 .card-title{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Sans', serif;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .event-text{
-    font-size: 19px;
-    font-family: 'DM Sans', serif;
+    font-size: 17px;
 }
 
 
