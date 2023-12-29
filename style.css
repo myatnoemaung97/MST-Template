@@ -74,26 +74,20 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgba(1, 0, 53, 0.5);
-    /* Change the color and opacity here */
     z-index: 1;
-    /* Ensure the overlay is behind the text and image */
 }
 
 .absolute-element {
     position: absolute;
     top: 70%;
-    /* Adjust to position the text vertically centered */
     left: 50%;
-    /* Adjust to position the text horizontally centered */
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     max-width: 700px;
     background-color: rgba(0, 0, 0, 0.7);
-    /* Semi-transparent background */
     padding: 20px;
     box-sizing: border-box;
-    /* Include padding within width and height */
 }
 
 .dropdown-item:hover {
@@ -125,6 +119,10 @@ p {
     font-weight: bolder;
 }
 
+.programme-text{
+    font-size: 20px;
+}
+
 @media screen and (max-width: 992px) {
     .dropdown-menu {
         background-color: #010035;
@@ -148,7 +146,15 @@ p {
     }
 
     .programme-header{
-        font-size: 35px;
+        font-size: 30px;
+    }
+
+    .programme-name{
+        font-size: 25px;
+    }
+
+    .programme-text{
+        font-size: 20px;
     }
 }
 
@@ -176,6 +182,14 @@ p {
 
     .programme-header{
         font-size: 25px;
+    }
+
+    .programme-name{
+        font-size: 20px;
+    }
+
+    .programme-text{
+        font-size: 17px;
     }
 }
 
@@ -212,6 +226,14 @@ p {
 
     .programme-header{
         font-size: 25px;
+    }
+
+    .programme-name{
+        font-size: 20px;
+    }
+
+    .programme-text{
+        font-size: 17px;
     }
 }  
 
