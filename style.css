@@ -64,6 +64,36 @@ p {
     background-size: cover;
     background-position: top;
 }
+.event-banner {
+    background-image: url('images/event\ banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.graduation-banner {
+    background-image: url('images/Graduation\ Banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.fresher-banner {
+    background-image: url('images/Fresher\ Welcome\ Banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.futsal-banner {
+    background-image: url('images/Futsal\ Banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.badminton-banner {
+    background-image: url('images/Badminton\ banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.mdy-banner {
+    background-image: url('images/Mdy\ opening\ banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
 
 /* mnm */
 .relative-container:not(.lecturer-banner)::before {
@@ -697,17 +727,7 @@ li {
     transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
 
-.award-img .image2 img{
-    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
-}
-
-
 .award-img .image1:hover img{
-    transform: scale(0.9);
-    filter: brightness(70%);
-}
-
-.award-img .image2:hover img{
     transform: scale(0.9);
     filter: brightness(70%);
 }
