@@ -36,7 +36,7 @@ p {
 }
 
 .contact-banner {
-    background-image: url('images/contact-banner.jpg');
+    background-image: url('images/contact-banner-min.jpg');
     background-size: cover;
     background-position: bottom;
 }
@@ -48,13 +48,13 @@ p {
 }
 
 .academic-banner {
-    background-image: url('images/academic-banner.jpg');
+    background-image: url('images/academic-banner-min.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .lecturer-banner {
-    background-image: url('images/Lecturers.png');
+    background-image: url('images/Lecturers-min.png');
     background-size: cover;
     background-position: top;
 }
@@ -85,7 +85,7 @@ p {
     background-position: top;
 }
 .badminton-banner {
-    background-image: url('images/Badminton\ banner.jpg');
+    background-image: url('images/Badminton\ banner-min.jpg');
     background-size: cover;
     background-position: top;
 }
@@ -153,6 +153,17 @@ p {
     font-size: 20px;
 }
 
+.itpec-logo{
+    height: 90px;
+}
+
+@media screen and (min-width: 992px) {
+    .chancellor-paragraph {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .dropdown-menu {
         background-color: #010035;
@@ -185,6 +196,15 @@ p {
 
     .programme-text{
         font-size: 20px;
+    }
+
+    .itpec-logo{
+        height: 90px;
+    }
+
+    .chancellor-paragraph {
+        font-size: 18px;
+        line-height: 28px;
     }
 }
 
@@ -220,6 +240,10 @@ p {
 
     .programme-text{
         font-size: 17px;
+    }
+
+    .chancellor-paragraph {
+        font-size: 20px;
     }
 }
 
@@ -264,6 +288,15 @@ p {
 
     .programme-text{
         font-size: 17px;
+    }
+
+    .itpec-logo{
+        height: 60px;
+    }
+
+    .chancellor-paragraph {
+        font-size: 16px;
+        line-height: 30px;
     }
 }  
 
@@ -360,7 +393,7 @@ li {
 }
 
 .image {
-    background-image: url('./images/academic-banner-2-cropped.jpg'), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-image: url('./images/academic-banner-2-cropped-min.jpg'), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
