@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- owl carousel min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- owl carousel default theme min css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/807f2d6ec6.js" crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div id="address-bar"
+            class="d-none d-md-flex justify-content-between align-items-center text-white px-md-4 py-md-3"
+            style="background-color: rgba(0, 0, 0, 0.5);">
+            <div class="contact-bar d-none d-md-flex justify-content-between gap-5" style="font-size: 14px;">
+                <p>Phone : 09 422 288 601</p>
+                <p>Email : info@mstinstitute.net</p>
+                <p>Opening Hours : Mon - Fri : 09:00 - 17:00</p>
+            </div>
+            <div class="d-none d-lg-flex justify-content-between gap-3">
+                <a style="text-decoration: none; color: #ffffff;" target="_blank"
+                    href="https://www.facebook.com/MyanmarSkillofTechnologies/"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a style="text-decoration: none; color: #ffffff;" target="_blank"
+                    href="https://mm.linkedin.com/company/mstuniversity/"><i class="fa-brands fa-linkedin"></i></a>
+                <a style="text-decoration: none; color: #ffffff;" target="_blank"
+                    href="https://youtube.com/@M.S.TUniversity?si=qX2rGwJN3E_c0bnd/"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <nav id="nav-bar" class="navbar navbar-expand-lg text-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./images/mst-logo-min.png" alt="uni logo" style="max-width: 150px; max-height: 130px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel" style="background-color: #010035;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="./images/mst-logo-min.png" alt="uni logo"
+                                style="max-width: 150px; max-height: 130px;">
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Programmes
+                                </a>
+                                <ul class="dropdown-menu bg-white">
+                                    <li><a class="dropdown-item dropdowns text-dark" href="#pg">Postgraduate</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" href="#ug">Undergraduate</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" href="#dp">Diplomas</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" href="#cf">Certifications</a></li>
+                                    <li><a class="dropdown-item dropdowns text-dark" href="#sc">Short Courses</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="lecturer.html">Faculty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="events.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="relative-container academic-banner">
+        <div class="banner-text text-white container-fluid text-start">
+            <h2 class="banner-heading">PROGRAMMES</h2>
+        </div>
+    </div>
+    <!-- academic items -->
+    <section id="pg"></section>
+    <div>
+        <h2 class="small-heading text-center mt-5" style="color: #36348E;">OUR PROGRAMMES</h2>
+    </div>
+    <div class="container-fluid programme-container mt-5">
+        <h2 class="programme-header">Postgraduate Programmes</h2>
+        <div>
+            <img src="./images/Lincoln University College-min.png" class="img-fluid mt-5" style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">Lincoln University College (Malaysia) - Master of Science (Computer Science)
+            </h2>
+            <p class="programme-text mt-3">The Master of Computer Science (MCS) degree is a terminal, professional
+                degree that helps to build a technical career in the computer industry. The programme provides students
+                with the fundamental knowledge and an in-depth understanding of computer information systems, computer
+                programming languages, Internet programming languages, software engineering, computer database
+                applications, computer network, e-commerce and artificial intelligence.</p>
+            <p class="programme-text">Duration - 1 year 6 months<a
+                    href="https://lincoln.edu.my/master-of-computer-science/" target="_blank"
+                    class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/ec council-cropped.jpg" class="img-fluid mt-5" style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">EC Council University - Master of Cyber Security
+            </h2>
+            <p class="programme-text mt-3">EC-Council University's Master of Science in Cyber Security program equips
+                students with advanced skills in areas such as network security, ethical hacking, and incident response.
+                The curriculum, emphasizing hands-on learning and industry certifications, prepares students for
+                leadership roles in the dynamic field of cybersecurity.</p>
+            <p class="programme-text">Duration - 2 years <a
+                    href="https://www.eccu.edu/academics/master-of-science-in-cyber-security/" target="_blank"
+                    class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <section id="ug"></section>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+
+        <h2 class="programme-header mt-5">Undergraduate Programmes</h2>
+        <div>
+            <img src="./images/UCLan-University-of-Central-Lancashire update-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">BSc (Hons) Business Computing and Information Systems Top-up Degree
+            </h2>
+            <p class="programme-text mt-3">The BSc (Hons) Business Computing and Information Systems Top-up Degree is
+                delivered online by NCC Education, validated and awarded by the University of Central Lancashire
+                (UCLan). This programme has been designed to prepare students for employment in the IT sector.</p>
+            <p class="programme-text">Duration - Full-time: 1 year <a
+                    href="https://www.nccedu.com/qualifications/degree/bsc-hons-business-computing-and-information-systems/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/UCLan-University-of-Central-Lancashire update-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">BSc (Hons) Cyber Security and Networking Top-up Degree
+            </h2>
+            <p class="programme-text mt-3">The BSc (Hons) Cyber Security and Networking top-up degree is delivered
+                online by
+                NCC Education and is a natural progression from our Level 5 Diploma in Computing with Cyber
+                Security. This final year is awarded by the University of Central Lancashire (abbreviated UCLan).
+            </p>
+            <p class="programme-text">The programme aims to equip graduates with the knowledge, technical and
+                interpersonal skills
+                necessary for taking part in the design, implementation, management and security of modern computer
+                systems.</p>
+            <p class="programme-text">Duration - Full-time: 1 year <a
+                    href="https://www.nccedu.com/qualifications/degree/bsc-hons-cyber-security-and-networking/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+
+        </div>
+        <div>
+            <img src="./images/Lincoln University College-min.png" class="img-fluid mt-5" style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">BSc (Hons) Network Technology and Cybersecurity
+            </h2>
+            <p class="programme-text mt-3">The BSc (Hons) Network Technology and Cybersecurity Degree is validated and
+                awarded by the Lincoln University College (Malaysia). Graduates of this course will acquire the
+                necessary skills required to manage a network and maintain its security. We also porovide laboratory
+                facilities, for the study of key areas, such as, network operating systems,network manage-ment and
+                network implementation.</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://lincoln.edu.my/bachelor-of-computer-science-hons-network-technology-and-cybersecurity/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <section id="dp"></section>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+
+        </div>
+
+
+        <h2 class="programme-header mt-5">Diplomas</h2>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 3 Diploma in Computing (L3DC)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 3 Diploma in Computing (L3DC) is an Ofual regulated
+                qualification. It is an Applied General qualification which allows candidates to demonstrate key
+                transferable study skills, mathematical competency and applied cultural understanding, especially in the
+                area of digital culture, as well as an understanding of the essential concepts of computer programming.
+            </p>
+            <p class="programme-text">Duration - 6 months <a
+                    href="https://www.nccedu.com/qualifications/computing/ncc-education-level-3-diploma-in-computing-l3dc/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 4 Diploma in Computing (L4DC)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 4 Diploma in Computing (L4DC) is an Ofqual regulated
+                qualification. The qualification (with specialisms) makes up the first year of a Computing/ IT degree
+                pathway. The qualification is equivalent to the first year of an IT degree in the UK university system.
+            </p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/computing/ncc-education-level-4-diploma-in-computing-l4dc/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 4 Diploma in Computing (with Business Management) (L4DC BM)
+            </h2>
+            <p class="programme-text mt-3">The Level 4 Diploma in Computing (with Business Management) (L4DC BM)
+                (previously the
+                Level 4 Diploma in Business Information Technology (L4DBIT)) makes up the first year of the NCC
+                Education degree journey. The qualification is equivalent to the first year of an IT degree in the UK
+                university system.</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/computing/level-4-diploma-in-computing-with-business-management-l4dc-bm/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 5 Diploma in Computing (L5DC)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 5 Diploma in Computing (L5DC) is an Ofqual regulated
+                qualification. The qualification (with specialisms) makes up the second year of the NCC Education degree
+                journey and builds upon the knowledge gained during the NCC Education Level 4 Diploma in Computing
+                (L4DC) or the NCC Education Level 4 Diploma in Computing with Business Management (L4DC BM), exposing
+                students to greater detail and more advanced topics in a range of areas including database development,
+                information systems analysis, network security and cryptography.
+            </p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/computing/ncc-education-level-5-diploma-in-computing-l5dc/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 5 Diploma in Computing (with Business Management) (L5DC BM)
+            </h2>
+            <p class="programme-text mt-3">The Level 5 Diploma in Computing (with Business Management) (L5DC BM)
+                (previously the
+                Level 5 Diploma in Business IT (L5DBIT)) makes up the second year of the NCC Education degree journey
+                and builds upon the knowledge gained during the NCC Education Level 4 Diploma in Business Information
+                Technology (L4DBIT).</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/computing/level-5-diploma-in-computing-with-business-management-l5dc-bm/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 5 Diploma in Computing (with Cyber Security) (L5DC CS)
+            </h2>
+            <p class="programme-text mt-3">The Level 5 Diploma in Computing with Cyber Security (L5DC CS) (previously
+                Level 5
+                Diploma in Cyber Security (L5DCS)) makes up the second year of the NCC Education degree journey. This
+                builds upon the knowledge gained during the Level 4 Diploma in Computing (L4DC).</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/computing/level-5-diploma-in-computing-with-cyber-security-l5dcs/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 3 International Foundation Diploma for Higher Education Studies
+                (L3IFDHES)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 3 International Foundation Diploma for Higher
+                Education Studies
+                (L3IFDHES) is an Ofqual regulated qualification. It is a one-year pre-university qualification developed
+                by UK academics to help you progress successfully to undergraduate study.</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/diplomas/ncc-education-level-3-international-foundation-diploma-for-higher-education-studies-l3ifdhes/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 3 Diploma in Business (L3DB)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 3 Diploma in Business (L3DB) is regulated by
+                Qualification
+                Wales (QiW). It is an Applied General qualification which allows candidates to demonstrate key
+                transferable study skills, mathematical competency and applied cultural understanding, particularly in
+                the context of international business, as well as a grounding in the essential concepts of business and
+                economics.</p>
+            <p class="programme-text">Duration - 6 months <a
+                    href="https://www.nccedu.com/qualifications/business/ncc-education-level-3-diploma-in-business-l3db/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 4 Diploma in Business (L4DB)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 4 Diploma in Business (L4DB) is a regulated
+                qualification. It
+                makes up the first year of the NCC Education Business Degree journey. The qualification is equivalent to
+                the first year of a business degree in the UK university system.</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/business/ncc-education-level-4-diploma-in-business-l4db/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">NCC Level 5 Diploma in Business (L5DB)
+            </h2>
+            <p class="programme-text mt-3">The NCC Education Level 5 Diploma in Business (L5DB) is a regulated
+                qualification. The
+                qualification makes up the second year of the NCC Education degree journey and builds upon the knowledge
+                gained during the NCC Education Level 4 Diploma in Business (L4DB), exposing students to greater detail
+                and more advanced topics in a range of areas including economics, marketing, finance and management.</p>
+            <p class="programme-text">Duration - 1 year <a
+                    href="https://www.nccedu.com/qualifications/business/ncc-education-level-5-diploma-in-business-l5db/"
+                    target="_blank" class="btn btn-primary float-end" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <section id="cf"></section>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+
+
+        <h2 class="programme-header mt-5">Certifications</h2>
+        <div>
+            <img src="./images/itpec logo-02 small size.png" class="img-fluid mt-5" style="width: 250px; height: 200px;"
+                alt="">
+            <h2 class="programme-name mt-3">ITPEC
+            </h2>
+            <p class="programme-text mt-3">Information Technology Professionals Examination Council (hereinafter called
+                "ITPEC")
+                is the organization for a common IT examination in Asian countries, ITPEC Examination. It was formed on
+                November 2005 to co-ordinate all efforts of the member countries for ITPEC Examination in cooperation
+                with IPA, Japan. ITPEC includes members from 6 countries (Philippines, Thailand, Vietnam, Myanmar,
+                Mongolia, and Bangladesh).</p>
+            <p class="programme-text">Duration - 1 year and 6 months<a
+                    href="https://itpec.org/about/itpec-common-exam.html" class="btn btn-primary float-end"
+                    target="_blank" style="background-color: #36348E;">Course Info</a>
+            </p>
+            <section id="sc"></section>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+
+
+        <h2 class="programme-header mt-5">Short Courses</h2>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">Artificial Intelligence
+            </h2>
+            <p class="programme-text mt-3">The Short Course in Artificial Intelligence (AI) is suitable for IT working
+                professionals and graduates.</p>
+            <div class="d-flex justify-content-end">
+                <a href="https://www.nccedu.com/qualifications/professional-development/short-courses-in-artificial-intelligence/"
+                    class="btn btn-primary" target="_blank" style="background-color: #36348E;">Course Info</a>
+            </div>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">Computer Basics
+            </h2>
+            <p class="programme-text mt-3">An introduction to the basic skills required in using word processors,
+                spreadsheets and
+                presentation software.</p>
+            <div class="d-flex justify-content-end">
+                <a href="https://www.nccedu.com/qualifications/professional-development/computer-basics/"
+                    target="_blank" class="btn btn-primary" style="background-color: #36348E;">Course Info</a>
+            </div>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">Cyber Security
+            </h2>
+            <p class="programme-text mt-3">Participants will gain knowledge of the fundamental principles, underlying
+                theory and
+                practical skills employed in securing information and networks.</p>
+            <div class="d-flex justify-content-end">
+                <a href="https://www.nccedu.com/qualifications/professional-development/cyber-security/" target="_blank"
+                    class="btn btn-primary" style="background-color: #36348E;">Course Info</a>
+            </div>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+        <div>
+            <img src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png" class="img-fluid mt-5"
+                style="width: 250px;" alt="">
+            <h2 class="programme-name mt-3">Data Science
+            </h2>
+            <p class="programme-text mt-3">Understanding the theory behind Data Science and the methodologies that can
+                be applied,
+                will enable you to apply a forward-looking approach to past and current data and predict future
+                outcomes.</p>
+            <div class="d-flex justify-content-end">
+                <a href="https://www.nccedu.com/qualifications/professional-development/data-science-2/" target="_blank"
+                    class="btn btn-primary" style="background-color: #36348E;">Course Info</a>
+            </div>
+            <hr class="mt-5" style="border: 1px solid #0c0ab1;">
+        </div>
+
+    </div>
+
+
+    <div class="image mt-5">
+        <div class="counter">
+            <div class="row">
+                <div class="rounded p-4 d-flex bg-white">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="d-flex justify-content-center">
+                                <div class="counter-item me-5 ms-5">
+                                    <h1 class="d-flex">50
+                                        <i class="fa fa-plus counter-icon"></i>
+                                    </h1>
+                                    <p>Courses</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="d-flex justify-content-center">
+                                <div class="counter-item me-5 ms-5">
+                                    <h1>120</h1>
+                                    <p>Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="d-flex justify-content-center">
+                                <div class="counter-item me-5 ms-5">
+                                    <h1 class="d-flex">1000
+                                        <i class="fa fa-plus counter-icon"></i>
+                                    </h1>
+                                    <p>Students</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="d-flex justify-content-center">
+                                <div class="counter-item me-5 ms-5">
+                                    <h1 class="d-flex">400
+                                        <i class="fa fa-plus counter-icon"></i>
+                                    </h1>
+                                    <p>Diploma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div>
+            <h2 class="small-heading text-center mt-5" style="color: #36348E;">OUR PARTNERS</h2>
+            <h2 class="heading text-center">Our Partners' View</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/NCCEdu_Logo_2020_RGB_Dark Blue_Horizontal-01-min.png"
+                            style="width: 250px; height: 80px;" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">NCC Education</h5>
+                        <div style="width: 100%;">
+                            <p class="card-text d-flex align-items-center">
+                                NCC Education is a global provider of British
+                                education, offering a range of qualifications and programs in partnership with
+                                universities and colleges worldwide. Our collaboration with NCC Education enhances
+                                the
+                                academic pathways and opportunities available to our students.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/itpec logo-02-cropped-min.png" style="width: 250px; height: 90px;"
+                            class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">
+                            ITPEC
+                        </h5>
+                        <p class="card-text">
+                            As a partner of ITPEC, we align ourselves with a council dedicated to
+                            promoting and standardizing IT professionalism in the Asia-Pacific region. This
+                            collaboration ensures that our students are well-prepared and recognized for their
+                            proficiency in the field of information technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/UCLan-University-of-Central-Lancashire update-min.png"
+                            style="width: 250px; height: 80px;" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">University of Central Lancashire (UCLan)</h5>
+                        <p class="card-text">
+                            Our partnership with UCLan, a leading UK university, opens doors to a
+                            wealth of academic resources and collaborative initiatives. Together, we work towards
+                            providing an internationally recognized education that prepares students for success in
+                            their chosen fields.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/UCLan-University-of-Central-Lancashire update-01-min.png"
+                            style="width: 250px; height: 80px;" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">EC-Council</h5>
+                        <p class="card-text">
+                            Partnering with EC-Council, a leader in cybersecurity education,
+                            strengthens our commitment to providing cutting-edge training and certifications in
+                            cybersecurity. Our collaboration ensures that students receive industry-relevant
+                            knowledge
+                            and skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/Lincoln University College-min.png" style="width: 250px; height: 80px;"
+                            class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">Lincoln University Malaysia</h5>
+                        <p class="card-text">
+                            Collaborating with Lincoln University Malaysia allows us to offer a
+                            diverse and globally relevant educational experience. This partnership contributes to
+                            the
+                            internationalization of our programs and fosters cultural exchange within the academic
+                            community.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;">
+                        <img src="./images/Logo-min.png" style="width: 250px; height: 80px;" class="card-img-top"
+                            alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">NCFE UK (Northern Council for Further Education)
+                        </h5>
+                        <p class="card-text">
+                            NCFE UK is a reputed awarding organization, and our partnership ensures
+                            that our academic programs adhere to high-quality standards. This collaboration enhances
+                            the
+                            credibility of our qualifications and aligns them with industry needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/SQA-International (1)-cropped-min.png" style="width: 250px; height: 80px;"
+                            class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">SQA (Scottish Qualifications Authority)</h5>
+                        <p class="card-text">
+                            SQA is a trusted accreditation body, and our partnership ensures that our
+                            academic programs meet rigorous quality standards. This collaboration enhances the
+                            recognition and transferability of our qualifications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/cass-2.png" style="width: 150px;" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">CASS Europe</h5>
+                        <p class="card-text">
+                            Collaborating with CASS Europe contributes to our commitment to providing
+                            a comprehensive business education. This partnership fosters academic excellence and
+                            global
+                            perspectives, preparing students for leadership roles in the dynamic world of business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="height: 400px;">
+                <div class="card p-3 rounded" style="height: 390px;">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 110px;"><img
+                            src="./images/ec council-cropped.jpg" style="width: 250px; height: 80px;"
+                            class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                        <h5 class="card-title partner-view-title">EC-Council University</h5>
+                        <p class="card-text">
+                            Our collaboration with EC-Council University extends our commitment to
+                            cybersecurity education. This partnership facilitates academic programs that prepare
+                            students for leadership roles in the cybersecurity industry, fostering innovation and
+                            expertise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5" style="width: 95%; max-width: 1000px;">
+        <div class="text-center mb-5">
+            <h2 class="small-heading" style="color: #36348E;">LETS JOIN AND PROVE IT</h2>
+            <h2 class="heading">Recent Awards</h2>
+            <p class="">M.S.T University, recognized for academic excellence, has earned accredited partner
+                awards from international institutions, emphasizing its commitment to quality education.
+                The university's dedication is further exemplified by students consistently achieving
+                global recognition through annual top scorer awards. These accomplishments underscore
+                M.S.T University's commitment to cultivating a vibrant learning environment, enabling
+                student success on both national and international fronts and establishing itself as a
+                premier institution of higher education.
+            </p>
+        </div>
+        <div class="card mb-4 p-3 m d-flex flex-column flex-md-row flex-lg-row justify-content-between align-items-center">
+            <div class="me-3 order-2 order-md-1 order-lg-1 mt-3 mt-md-0 mt-lg-0">
+                <h4>
+                    <i class="fa-solid fa-trophy"></i>ASOCIO
+                </h4>
+                <p>
+                    Receiving the ASOCIO EdTech Award 2023 reaffirms our mission and motivates us to
+                    continue pushing the boundaries of what's possible in education technology. ASOCIO
+                    EdTech Award is recognized as an outstanding award in digital talent training, work
+                    and study programs, technology courseware design, development and training
+                    methodologies focusing on Blockchain, IoT, AI, Robotics, Big Data, Cybersecurity &
+                    Cloud based solutions.
+                </p>
+            </div>
+            <div class="order-1 order-md-1 order-lg-2">
+                <img src="images/Asocio-min.jpg" class="img-fluid rounded" alt="" style="width: 800px;">
+            </div>
+        </div>
+        <div class="card mb-4 p-3 d-flex flex-column flex-md-row flex-lg-row justify-content-between align-items-center">
+            <div class="">
+                <img src="./images/pusu futsal cropped.jpg" class="img-fluid rounded" alt="" style="width: 800px;">
+            </div>
+            <div class="ms-3 mt-3 mt-md-0 mt-lg-0">
+                <h4>
+                    <i class="fa-solid fa-trophy"></i>Sports Awards
+                </h4>
+                <p>
+                    Exceptional students excelled in the PUSU Futsal Tournament 2023, securing 1st
+                    runner-up, Most Valuable Player, Best Goalkeeper, and Best Audience awards. Their
+                    success extended to the E-Sports Tournament 2023, where they claimed the 1st
+                    runner-up position, showcasing both individual skills and collective dedication in
+                    futsal and eSports.
+                </p>
+            </div>
+        </div>
+        <div class="card p-3 d-flex flex-column flex-md-row flex-lg-row justify-content-between align-items-center">
+            <div class="me-3 order-2 order-md-1 order-lg-1 mt-3 mt-md-0 mt-lg-0">
+                <h4>
+                    <i class="fa-solid fa-trophy"></i>Other Awards
+                </h4>
+                <p>
+                    M.S.T University has earned accredited partner awards from renowned international institutions,
+                    reinforcing its dedication to academic excellence. Additionally, our students consistently achieve
+                    global recognition with annual top scorer awards, highlighting the university's commitment to
+                    providing quality education and fostering an environment conducive to students' success.
+                </p>
+            </div>
+            <div class="order-1 order-md-2 order-lg-2">
+                <img src="images/ASOCIO1-min.jpg" class="img-fluid rounded" alt="" style="width: 800px;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5" style="background-color: #010035; margin-top: auto;">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="d-flex justify-content-center">
+                    <div class="footer-content">
+                        <img src="./images/mst-logo-min.png" class="pt-3 footer-logo" alt="">
+                        <p class="text-white ms-3 mt-2">Yangon Campus 1 - 09 422 288 106</p>
+                        <p class="text-white ms-3 mt-2">Yangon Campus 2 - 09 422 288 601</p>
+                        <p class="text-white ms-3 mt-2">Mandalay Campus - 09 979 700 830</p>
+                        <p class="text-white ms-3 pb-2">Email Address - info@mstinstitute.net</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <p class="text-white mt-4 ms-4"
+                            style="font-size: 25px; font-family: 'Cormorant Garamond', serif; font-weight: 900;">
+                            Useful
+                            Links
+                        </p>
+                        <ul style="list-style-type: none;" class="link-list">
+                            <li class="text-white mb-4"> >
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="text-white mb-4"> > <a href="academics.html">Programmes</a></li>
+                            <li class="text-white mb-4"> > <a href="lecturer.html">Faculty</a></li>
+                            <li class="text-white mb-4"> > <a href="events.html">Events</a></li>
+                            <li class="text-white mb-4"> >
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li class="text-white mb-4"> >
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <p class="text-white text-center pb-3 m-0">
+                Copyright &copy; 2023 by BigTech International. All rights
+                reserved!
+            </p>
+        </div>
+    </div>
+    <!-- custom js -->
+    <script src="script.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl carousel min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl carousel init -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            },
+            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+        })
+    </script>
+</body>
+
+</html>
